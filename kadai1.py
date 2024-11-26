@@ -1,4 +1,6 @@
-!/usr/bin/python3
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 Kouki Fukuura
+# SPDX-License-Identifier: BSD-3-Clause
 import sys
 
 # コマンドライン引数の取得
