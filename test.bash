@@ -10,19 +10,19 @@ ng () {
 res=0
 
 # 1つ目のテスト: 12 15が与えられた場合
-out=$(python3 ./kadai1.py 12 15)
+out=$(echo "12 15" | python3 ./kadai1.py)
 if [ "${out}" != "3" ]; then
     ng "$LINENO"
 fi
 
 # 2つ目のテスト: 非数値「あ」が与えられた場合
-out=$(python3 ./kadai1.py あ)
+out=$(echo "あ" | python3 ./kadai1.py)
 if [ "$?" -ne 1 ] || [ "${out}" != "少なくとも2つの数値を入力してください。" ]; then
     ng "$LINENO"
 fi
 
 # 3つ目のテスト: 引数なし
-out=$(python3 ./kadai1.py)
+out=$(echo "" | python3 ./kadai1.py)
 if [ "$?" -ne 1 ] || [ "${out}" != "少なくとも2つの数値を入力してください。" ]; then
     ng "$LINENO"
 fi
