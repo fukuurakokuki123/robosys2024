@@ -5,7 +5,7 @@ import sys
 
 # コマンドライン引数の取得
 if len(sys.argv) < 3:
-    print("少なくとも2つの数値を入力してください。")
+    print("エラー: 少なくとも2つの数値を入力してください。")
     sys.exit(1)
 
 # 数値の処理（例えばGCD計算など）
@@ -13,7 +13,7 @@ try:
     a = int(sys.argv[1])
     b = int(sys.argv[2])
 except ValueError:
-    print("入力は数値でなければなりません。")
+    print("エラー: 引数は数値でなければなりません。")  # エラーメッセージを修正
     sys.exit(1)
 
 def gcd(a, b):
