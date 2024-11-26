@@ -29,4 +29,4 @@ git@github.com:https:/fukuurakokuki123/robosys2024.gitを入力します。
   
 3.出力として最大公約数 (GCD) が表示されます：
 
-   GCD: 3
+    GCD: 3
