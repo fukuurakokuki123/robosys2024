@@ -25,7 +25,7 @@ git@github.com:https:/fukuurakokuki123/robosys2024.gitを入力します。
     
 2.数値をスペース区切りで入力してください。
 
-　　   12 15
+　　          12 15
   
 3.出力として最大公約数 (GCD) が表示されます：
 
