@@ -49,6 +49,10 @@ git@github.com:https:/fukuurakokuki123/robosys2024.gitを入力します。
 
 ## テストの結果
 
+1.test.bashを実行
+
+./test.bashで実行します。
+
 テストケース,　入力,　期待される出力,　結果
 
 ケース1: 有効な入力,　12 15,　GCD : 3,　✔ Pass
@@ -58,3 +62,11 @@ git@github.com:https:/fukuurakokuki123/robosys2024.gitを入力します。
 ケース3: 入力が空の場合, エラー　: 入力は数値でなければなりません, ✔ Pass
 
 ケース4: 負の整数を含む有効な入力,　 -12 -15,　 GCD　:　 3,　✔ Pass
+
+テスト結果の出力
+
+すべてのテストが成功した場合、以下のメッセージが表示されます:
+
+OK: All tests passed
+
+
