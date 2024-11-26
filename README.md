@@ -51,7 +51,7 @@ git@github.com:https:/fukuurakokuki123/robosys2024.gitを入力します。
 
 1.test.bashを実行
 
-./test.bashで実行します。
+　　　　./test.bashで実行します。
 
 テストケース,　入力,　期待される出力,　結果
 
