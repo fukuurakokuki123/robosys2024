@@ -9,17 +9,26 @@ ng () {
 
 res=0
 
-out=$(python3 ./kadai1.py 12 15)
+# テスト 1: 2つの数値を入力してGCDを計算
+out=$(echo "12 15" | ./kadai1.py)
 if [ "${out}" != "3" ]; then
     ng "$LINENO"
 fi
 
-out=$(python3 ./kadai1.py あ)
-if [ "$?" -ne 1 ] || [ "${out}" != "少なくとも2つの数値を入力してください。"]; then
+# テスト 2: 入力が少ない場合
+out=$(echo "12" | ./kadai1.py)
+if [ "$?" -ne 1 ] || [ "${out}" != "少なくとも2つの数値を入力してください。" ]; then
     ng "$LINENO"
 fi
 
-out=$(python3 ./kadai1.py)
+# テスト 3: 数値以外の入力
+out=$(echo "あ 15" | ./kadai1.py)
+if [ "$?" -ne 1 ] || [ "${out}" != "入力は数値でなければなりません。" ]; then
+    ng "$LINENO"
+fi
+
+# テスト 4: 入力が空の場合
+out=$(echo "" | ./kadai1.py)
 if [ "$?" -ne 1 ] || [ "${out}" != "少なくとも2つの数値を入力してください。" ]; then
     ng "$LINENO"
 fi
