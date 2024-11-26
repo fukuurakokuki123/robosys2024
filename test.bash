@@ -1,4 +1,6 @@
 #!/bin/bash -xv
+# SPDX-FileCopyrightText: 2024 Kouki Fukuura
+# SPDX-License-Identifier: BSD-3-Clause
 
 ng () {
     echo "Error at line ${1}: Test failed"
