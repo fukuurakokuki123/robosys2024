@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+
+
 def gcd(a, b):
     """最大公約数を計算する関数"""
     while b != 0:
