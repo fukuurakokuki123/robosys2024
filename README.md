@@ -83,4 +83,6 @@ Pythonの例外処理・・・https://zenn.dev/tigrebiz/articles/python-try-exce
 
 ・このパッケージのコードの一部は、（CC-BY－SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て自身の著作としたものです。
 
-https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022 ・©　2024　Kouki　Fukuura
+https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022 
+
+・©　2024　Kouki　Fukuura
