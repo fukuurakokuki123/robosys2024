@@ -71,4 +71,6 @@ git@github.com:https:/fukuurakokuki123/robosys2024.gitを入力します。
 
 ## 参考文献
 
-最大公約数と最小公倍数を算出・取得・・・https://note.nkmk.me/python-gcd-lcm/Python　最大公約数と最小公倍数を算出・取得
+最大公約数と最小公倍数を算出・取得　プログラミング・・・https://note.nkmk.me/python-gcd-lcm/Python
+Pythonの例外処理・・・https://zenn.dev/tigrebiz/articles/python-try-exception
+テスト実行・・ロボットシステム学11/7スライド・・・https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html#14　
