@@ -1,19 +1,14 @@
 #!/usr/bin/python3
 # SPDX-FileCopyrightText: 2024 Kouki Fukuura
 # SPDX-License-Identifier: BSD-3-Clause
+
 import sys
 
-# コマンドライン引数の取得
-if len(sys.argv) < 3:
-    print("エラー: 少なくとも2つの数値を入力してください。")
-    sys.exit(1)
-
-# 数値の処理（例えばGCD計算など）
+# 数値の入力を受け付ける
 try:
-    a = int(sys.argv[1])
-    b = int(sys.argv[2])
+    a, b = map(int, input("2つの数値を入力してください: ").split())
 except ValueError:
-    print("エラー: 引数は数値でなければなりません。")  # エラーメッセージを修正
+    print("エラー: 入力は数値でなければなりません。")
     sys.exit(1)
 
 def gcd(a, b):
@@ -22,4 +17,4 @@ def gcd(a, b):
     return a
 
 # GCDを計算して結果を表示
-print(gcd(a, b))
+print(f"GCD: {gcd(a, b)}")
