@@ -27,7 +27,6 @@ if [ "$?" -ne 1 ] || [ "${out}" != "少なくとも2つの数値を入力して�
     ng "$LINENO"
 fi
 
-# 最終結果の確認
 if [ "$res" = 0 ]; then
     echo "OK: All tests passed"
 else
