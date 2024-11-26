@@ -71,4 +71,4 @@ git@github.com:https:/fukuurakokuki123/robosys2024.gitを入力します。
 
 ## 参考文献
 
-https://note.nkmk.me/python-gcd-lcm/
+最大公約数と最小公倍数を算出・取得・・・https://note.nkmk.me/python-gcd-lcm/Python　最大公約数と最小公倍数を算出・取得
