@@ -4,17 +4,16 @@
 
 import sys
 
-def gcd(a, b):
-    while b:
-        a, b = b, a % b
-    return a
-
-# 標準入力から2つの数値を読み取る
-try:
-    a, b = map(int, input().split())
-except ValueError:
-    print("少なくとも2つの数値を入力してください。", file=sys.stderr)
+# 引数が2つ以上渡されていることを確認
+if len(sys.argv) < 3:
+    print("少なくとも2つの数値を入力してください。")
     sys.exit(1)
 
-# GCDを計算して結果を表示
-print(gcd(a, b))
+try:
+    # 引数を整数として読み込み
+    a, b = map(int, sys.argv[1:3])
+    # 計算
+    print(a + b)
+except ValueError:
+    print("少なくとも2つの数値を入力してください。")
+    sys.exit(1)
