@@ -70,3 +70,5 @@ git@github.com:https:/fukuurakokuki123/robosys2024.gitを入力します。
 　　　　OK: All tests passed
 
 ## 参考文献
+
+https://note.nkmk.me/python-gcd-lcm/
