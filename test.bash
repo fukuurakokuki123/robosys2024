@@ -10,16 +10,16 @@ ng () {
 res=0
 
 # テスト 1: seq 5 | ./plus の出力が 15 であることを確認
-out=$(seq 5 | ./plus)
+out=$(seq 5 | ./kadai1.py)
 [ "${out}" = "15" ] || ng "$LINENO"
 
 # テスト 2: echo あ | ./plus の終了ステータスが 1 で、出力が空であることを確認
-out=$(echo あ | ./plus)
+out=$(echo あ | ./kadai1.py)
 [ "$?" = 1 ] || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 
 # テスト 3: echo | ./plus の終了ステータスが 1 で、出力が空であることを確認
-out=$(echo | ./plus)
+out=$(echo | ./kadai1.py)
 [ "$?" = 1 ] || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 
