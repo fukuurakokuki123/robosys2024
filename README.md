@@ -69,7 +69,7 @@ git@github.com:https:/fukuurakokuki123/robosys2024.gitを入力します。
 
 　　　　OK: All tests passed
 
-## 参考文献
+## ライセンスと著作権
 
 最大公約数と最小公倍数を算出・取得　プログラミング・・・https://note.nkmk.me/python-gcd-lcm/Python
 
@@ -77,12 +77,11 @@ Pythonの例外処理・・・https://zenn.dev/tigrebiz/articles/python-try-exce
 
 テスト実行：ロボットシステム学11/7スライド・・・https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html#14　
 
-## ライセンス
+・このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 
-・このソフトウェアパッケージは，3条項BSDライセンスの下、再頒布および使用が許可されます。 
+・このパッケージは，aaa由来のコード（© 2022 Hoge Fuge）を利用しています．
 
-・このパッケージのコードの一部は、（CC-BY－SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て自身の著作としたものです。
+・このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
 
-https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022 
-
-・©　2024　Kouki　Fukuura
+・[ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
+・© 2022 Ryuichi Ueda
