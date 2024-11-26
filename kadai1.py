@@ -1,3 +1,4 @@
+!/usr/bin/python3
 import sys
 
 # コマンドライン引数の取得
