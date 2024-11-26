@@ -1,6 +1,6 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 Kouki Fukuura
 # SPDX-License-Identifier: BSD-3-Clause
-# 著作権: 2024 Kouki Fukuura
 
 import sys
 
