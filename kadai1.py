@@ -20,5 +20,4 @@ except ValueError:
     print("入力は数値でなければなりません。")
     sys.exit(1)
 
-# GCDを計算して出力
 print(gcd(a, b))
