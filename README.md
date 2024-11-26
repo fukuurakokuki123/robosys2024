@@ -17,7 +17,7 @@ git@github.com:https:/fukuurakokuki123/robosys2024.gitを入力します。
 2.cd tmp/robosys2024のリポジトリで./kadai1.pyで実行します。
 
 ## 簡単な使い方
-##入力例
+-入力例-
 
 1.プログラムを実行すると、以下のように入力を求められます:
 
