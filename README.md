@@ -37,7 +37,7 @@ git@github.com:https:/fukuurakokuki123/robosys2024.gitを入力します。
 	
 ・非数値入力の場合  :
 
-　　 2つの数値を入力してください:   abc xyz
+　　 '2つの数値を入力してください:   abc xyz'
   
 　　 エラー: 入力は数値でなければなりません。
   
