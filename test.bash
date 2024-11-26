@@ -9,21 +9,21 @@ ng () {
 # 初期設定
 res=0
 
-# テスト 1: seq 5 | ./kadai1.py の出力が 15 であることを確認
-out=$(seq 5 | python3 ./kadai1.py)
-if [ "${out}" != "15" ]; then
+# テスト 1: 2つの数値を渡して GCD を計算
+out=$(python3 ./kadai1.py 12 15)  # 数値を2つ渡す
+if [ "${out}" != "3" ]; then
     ng "$LINENO"
 fi
 
-# テスト 2: echo あ | ./kadai1.py の終了ステータスが 1 で、出力が空であることを確認
-out=$(echo あ | python3 ./kadai1.py)
-if [ "$?" -ne 1 ] || [ "${out}" != "" ]; then
+# テスト 2: 不正な入力に対してエラーが出ることを確認
+out=$(python3 ./kadai1.py あ)
+if [ "$?" -ne 1 ] || [ "${out}" != "少なくとも2つの数値を入力してください。" ]; then
     ng "$LINENO"
 fi
 
-# テスト 3: echo | ./kadai1.py の終了ステータスが 1 で、出力が空であることを確認
-out=$(echo | python3 ./kadai1.py)
-if [ "$?" -ne 1 ] || [ "${out}" != "" ]; then
+# テスト 3: 空の入力に対してエラーが出ることを確認
+out=$(python3 ./kadai1.py)
+if [ "$?" -ne 1 ] || [ "${out}" != "少なくとも2つの数値を入力してください。" ]; then
     ng "$LINENO"
 fi
 
