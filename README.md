@@ -75,7 +75,7 @@ git@github.com:https:/fukuurakokuki123/robosys2024.gitを入力します。
 
 Pythonの例外処理・・・https://zenn.dev/tigrebiz/articles/python-try-exception
 
-テスト実行・・ロボットシステム学11/7スライ・・・https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html#14　
+テスト実行：ロボットシステム学11/7スライド・・・https://ryuichiueda.github.io/slides_marp/robosys2024/lesson7.html#14　
 
 ## ライセンス
 
