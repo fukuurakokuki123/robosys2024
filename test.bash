@@ -10,7 +10,7 @@ ng () {
 res=0
 
 # 1つ目のテスト: 12 15が与えられた場合
-out=$(echo "12 15" | python3 ./gcd.py)
+out=$(echo "12 15" | python3 ./gcd)
 expected="2つの数値を入力してください: GCD: 3"
 echo "Output for '12 15': $out"
 if [ "$out" != "$expected" ]; then
@@ -18,7 +18,7 @@ if [ "$out" != "$expected" ]; then
 fi
 
 # 2つ目のテスト: 非数値「あ」が与えられた場合
-out=$(echo "あ あ" | python3 ./gcd.py)
+out=$(echo "あ あ" | python3 ./gcd)
 expected="2つの数値を入力してください: エラー: 入力は数値でなければなりません。"
 echo "Output for 'あ あ': $out"
 if [ "$out" != "$expected" ]; then
@@ -26,7 +26,7 @@ if [ "$out" != "$expected" ]; then
 fi
 
 # 3つ目のテスト: 引数なし
-out=$(echo "" | python3 ./gcd.py)
+out=$(echo "" | python3 ./gcd)
 expected="2つの数値を入力してください: エラー: 入力は数値でなければなりません。"
 echo "Output for no arguments: $out"
 if [ "$out" != "$expected" ]; then
