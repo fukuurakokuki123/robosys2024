@@ -46,8 +46,8 @@ git@github.com:https:/fukuurakokuki123/robosys2024.gitを入力します。
 ## 必要なソフトウェア
 ・python(テスト済みバージョン：3.7～3.11)
 
-## 必要なソフトウェア
-・python(テスト済みバージョン：3.7～3.11)
+## テスト環境
+・Ubuntu 22.04.5 LTS
 
 ## 参考文献
 
