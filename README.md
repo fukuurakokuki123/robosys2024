@@ -10,10 +10,6 @@
 ## 使用方法
 ### リポジトリをクローン
     git clone https://github.com/fukuurakokuki123/robosys2024.git
-### 実行可能にする
-
-    $ cd robosys2024  
-    $ chmod +x gcd
 ## 実行例
 ###  2つの数の場合
 
