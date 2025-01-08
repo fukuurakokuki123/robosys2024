@@ -9,10 +9,10 @@
 
 ## 使用方法
 ### リポジトリをクローン
-     git clone https://github.com/fukuurakokuki123/robosys2024.git
+    $ git clone https://github.com/fukuurakokuki123/robosys2024.git
 ### 実行可能にする
-cd robosys2024  
-chmod +x gcd
+    $ cd robosys2024  
+    $ chmod +x gcd
      
 ## 必要なソフトウェア
 - python(テスト済みバージョン：3.7～3.11)
