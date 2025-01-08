@@ -10,16 +10,15 @@
 ## 使用方法
 ### リポジトリをクローン
     git clone https://github.com/fukuurakokuki123/robosys2024
+     $ cd robosys2024
 ## 実行例
 ###  2つの数の場合
 
-    $ cd robosys2024
     $ echo "56 98" | ./gcd 
 ### 実行結果
    
     GCD:14
 ### 3つの数の場合
-    $ cd robosys2024
     $ echo "56 98 120" | ./gcd
 
 ### 実行結果
@@ -28,7 +27,6 @@
 ###  数字以外が入力された場合
 
 ~~~
-$ cd robosys2024
 $ echo "あ A ?" | ./gcd
 エラー: 数値を入力してください。
 ~~~
