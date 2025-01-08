@@ -44,10 +44,10 @@ git@github.com:https:/fukuurakokuki123/robosys2024.gitを入力します。
      エラー: 入力は数値でなければなりません。
      
 ## 必要なソフトウェア
-・python(テスト済みバージョン：3.7～3.11)
+- python(テスト済みバージョン：3.7～3.11)
 
 ## テスト環境
-・Ubuntu 22.04.5 LTS
+- Ubuntu 22.04.5 LTS
 
 ## 参考文献
 
@@ -59,9 +59,9 @@ Pythonの例外処理・・・https://zenn.dev/tigrebiz/articles/python-try-exce
 
 ## ライセンスと著作権
 
-・このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
+- このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 
-・このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
+- このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
 
 https://github.com/ryuichiueda/slides_marp/tree/master/robosys2024
 
