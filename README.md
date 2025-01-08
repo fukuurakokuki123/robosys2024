@@ -10,7 +10,7 @@
 # 実行手順
 ### インストール方法
      $ git@github.com:https:/fukuurakokuki123/robosys2024.git
-     $　cd tmp/robosys2024/
+     $ cd tmp/robosys2024/
 
 cd tmp/robosys2024のリポジトリで./gcd
 
