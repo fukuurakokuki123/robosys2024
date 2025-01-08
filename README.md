@@ -11,6 +11,8 @@
      $ git@github.com:https:/fukuurakokuki123/robosys2024.git
      $ cd tmp/robosys2024/
 ##  使用例
+    $chmod +x gcd
+    $./gcd
 
 
 ## 簡単な使い方
