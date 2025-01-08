@@ -1,7 +1,4 @@
 #!/usr/bin/python3
-# SPDX-FileCopyrightText: 2024 Kouki Fukuura
-# SPDX-License-Identifier: BSD-3-Clause
-
 import sys
 
 def gcd(a, b):
@@ -9,20 +6,20 @@ def gcd(a, b):
         a, b = b, a % b
     return a
 
-# コマンドライン引数を確認
-if len(sys.argv) > 1:
-    try:
-        a, b = map(int, sys.argv[1:3])  # 最初の2つの引数を使う
-    except ValueError:
-        print("エラー: 引数は数値でなければなりません。")
-        sys.exit(1)
-else:
-    try:
-        # 標準入力を受け付ける
-        a, b = map(int, input("2つの数値を入力してください: ").split())
-    except ValueError:
-        print("エラー: 入力は数値でなければなりません。")
-        sys.exit(1)
+# 最大公約数をリスト全体で計算する関数
+def gcd_multiple(numbers):
+    result = numbers[0]
+    for num in numbers[1:]:
+        result = gcd(result, num)
+    return result
 
-# GCDを計算して結果を表示
-print(f"GCD: {gcd(a, b)}")
+# 標準入力を直接読み込む
+for line in sys.stdin:
+    try:
+        numbers = list(map(int, line.split()))  # 行のすべての数値をリストにする
+        if len(numbers) < 2:
+            print("エラー: 少なくとも2つの数値が必要です。", file=sys.stderr)
+        else:
+            print(f"GCD: {gcd_multiple(numbers)}")
+    except ValueError:
+        print("エラー: 数値を入力してください。", file=sys.stderr)
