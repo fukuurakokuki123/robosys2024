@@ -26,4 +26,3 @@ else:
 
 # GCDを計算して結果を表示
 print(f"GCD: {gcd(a, b)}")
-i
