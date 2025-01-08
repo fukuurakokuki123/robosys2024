@@ -9,30 +9,20 @@ def gcd(a, b):
         a, b = b, a % b
     return a
 
-# コマンドライン引数または標準入力で数値を受け取る
+# コマンドライン引数を確認
 if len(sys.argv) > 1:
     try:
-        numbers = list(map(int, sys.argv[1:]))  # 複数の引数をリストとして受け取る
-        if len(numbers) < 2:
-            print("エラー: 2つ以上の数値を入力してください")
-            sys.exit(1)
+        a, b = map(int, sys.argv[1:3])  # 最初の2つの引数を使う
     except ValueError:
         print("エラー: 引数は数値でなければなりません。")
         sys.exit(1)
 else:
     try:
-        numbers = list(map(int, input("2つ以上の数値を入力してください: ").split()))
-        if len(numbers) < 2:
-            print("エラー: 2つ以上の数値を入力してください")
-            sys.exit(1)
+        # 標準入力を受け付ける
+        a, b = map(int, input("2つの数値を入力してください: ").split())
     except ValueError:
         print("エラー: 入力は数値でなければなりません。")
         sys.exit(1)
 
-# 複数の数値のGCDを計算
-gcd_result = numbers[0]
-for num in numbers[1:]:
-    gcd_result = gcd(gcd_result, num)
-
-# 結果を表示
-print(f"GCD: {gcd_result}")
+# GCDを計算して結果を表示
+print(f"GCD: {gcd(a, b)}")
