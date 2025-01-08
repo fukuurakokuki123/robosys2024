@@ -8,10 +8,10 @@
 数値以外の入力や無効な入力には適切なエラーメッセージを表示します。
 
 ## 実行手順
-1.端末にgit clone
-git@github.com:https:/fukuurakokuki123/robosys2024.gitを入力します。
+リポジトリをクローン
+git@github.com:https:/fukuurakokuki123/robosys2024.git
 
-2.cd tmp/robosys2024のリポジトリで./kadai1.pyで実行します。
+cd tmp/robosys2024のリポジトリで./gcd
 
 ## 簡単な使い方
 -入力例-
