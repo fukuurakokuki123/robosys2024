@@ -40,4 +40,4 @@ else
     echo "NG: Some tests failed"
 fi
 
-exit $res a
+exit $res 
