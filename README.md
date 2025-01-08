@@ -9,7 +9,7 @@
 
 ## 実行手順
 ### リポジトリをクローン
-$ git@github.com:https:/fukuurakokuki123/robosys2024.git
+     $ git@github.com:https:/fukuurakokuki123/robosys2024.git
 
 cd tmp/robosys2024のリポジトリで./gcd
 
