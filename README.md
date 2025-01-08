@@ -65,4 +65,4 @@ Pythonの例外処理・・・https://zenn.dev/tigrebiz/articles/python-try-exce
 
 https://github.com/ryuichiueda/slides_marp/tree/master/robosys2024
 
-© 2024 Kouki Fukuura
+- © 2024 Kouki Fukuura
