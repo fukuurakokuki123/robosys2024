@@ -9,7 +9,7 @@
 
 ## 使用方法
 ### リポジトリをクローン
-    git clone https://github.com/fukuurakokuki123/robosys2024.git
+    git clone https://github.com/fukuurakokuki123/robosys2024
 ## 実行例
 ###  2つの数の場合
 
