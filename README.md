@@ -8,7 +8,7 @@
 ・python(テスト済みバージョン：3.7～3.11)
 
 ## テスト環境
-・Ubuntu20.04
+・Ubuntu 22.04 LTS
 
 ## 実行手順
 1.端末にgit clone
